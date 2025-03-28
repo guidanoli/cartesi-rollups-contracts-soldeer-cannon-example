@@ -1,14 +1,7 @@
 {
-  "name": "tmp.QvK4D1RNQV",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "name": "cartesi-rollups-contracts-soldeer-cannon-example",
+  "version": "0.0.1",
+  "private": true,
   "devDependencies": {
     "@usecannon/cli": "^2.21.5"
   }

@@ -8,6 +8,6 @@ recursive_deps = true
 
 [dependencies]
 forge-std = "1.9.6"
-test-project-foo = "0.0.2"
+cartesi-rollups-contracts = "2.0.0-rc.17"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

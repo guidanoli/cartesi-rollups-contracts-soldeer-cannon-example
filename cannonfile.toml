@@ -1,13 +1,20 @@
-name = "my-little-project"
+name = "example"
 version = "0.0.1"
-description = "My little project that depends on Cartesi Rollups"
+description = "Example project that uses Cartesi Rollups contracts"
 
 [pull.rollups]
 source = "cartesi-rollups:2.0.0-rc.17@main"
 
-[deploy.PortalProvider]
-artifact = "PortalProvider"
-args = ["<%= rollups.ERC20Portal.address %>"]
+[deploy.Registry]
+artifact = "Registry"
+args = [
+    "<%= rollups.InputBox.address %>",
+    "<%= rollups.EtherPortal.address %>",
+    "<%= rollups.ERC20Portal.address %>",
+    "<%= rollups.ERC721Portal.address %>",
+    "<%= rollups.ERC1155SinglePortal.address %>",
+    "<%= rollups.ERC1155BatchPortal.address %>",
+]
 create2 = true
 salt = "<%= zeroHash %>"
 ifExists = "continue"
