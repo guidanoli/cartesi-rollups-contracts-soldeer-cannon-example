@@ -4,3 +4,10 @@ version = "1.9.6"
 url = "https://soldeer-revisions.s3.amazonaws.com/forge-std/1_9_6_01-02-2025_20:49:10_forge-std-1.9.zip"
 checksum = "55f341818321b3f925161a72fd0dcd62e4a0a4b66785a7a932bf2bfaf96fb9d1"
 integrity = "e9ecdc364d152157431e5df5aa041ffddbe9bb1c1ad81634b1e72df9e23814e8"
+
+[[dependencies]]
+name = "test-project-foo"
+version = "0.0.2"
+url = "https://soldeer-revisions.s3.amazonaws.com/test-project-foo/0_0_2_28-03-2025_19:10:21_rollups-contracts.zip"
+checksum = "ed5f9bbf34347fb2b0b57e440b10ab83142d9f3f0f5f6ff5bf7898c0168cc96e"
+integrity = "6f9cdd1a1eedafe1d71e767492bbad9f6aaf5eec73b3bdd919152b6b65a6aa72"
