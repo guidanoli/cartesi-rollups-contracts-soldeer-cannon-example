@@ -1,0 +1,13 @@
+name = "my-little-project"
+version = "0.0.1"
+description = "My little project that depends on Cartesi Rollups"
+
+[pull.rollups]
+source = "cartesi-rollups:2.0.0-rc.17@main"
+
+[deploy.PortalProvider]
+artifact = "PortalProvider"
+args = ["<%= rollups.ERC20Portal.address %>"]
+create2 = true
+salt = "<%= zeroHash %>"
+ifExists = "continue"
